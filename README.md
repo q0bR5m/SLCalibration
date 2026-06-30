@@ -2,7 +2,7 @@
 
 [**中文说明**](#中文说明) | [**English**](#english)
 
-基于数字图像相关(DIC)的结构光系统标定方法。本代码为论文 **"Calibration Method for Structured Light System Based on DIC"** (Applied Optics, Vol. 61, No. 27, 2022) 中的算法。
+基于数字图像相关(DIC)的结构光系统标定方法。本代码为论文 ****** 中的算法。
 
 该方法使用一个散斑投影仪和一台相机，通过 DIC 匹配实现 单目结构光的标定，不需要额外投影图案。
 
@@ -144,23 +144,13 @@ SLCalibration-python/
 
 **三维重建**: 去畸变 (50次迭代) → 线性最小二乘三角化 → 点云居中归一化。
 
-### 引用
 
-如果本代码对您的研究有帮助，请引用:
-
-```
-Zhu, C., Zhang, Q., Hou, J., & Gao, H. (2022).
-Calibration method for structured light system based on DIC.
-Applied Optics, 61(27), 8050-8059.
-```
-
----
 
 ## English
 
 ### Overview
 
-This repository provides a complete Python implementation of the structured light system calibration method described in **"Calibration Method for Structured Light System Based on DIC"** (Applied Optics, 2022).
+This repository provides a complete Python implementation of the structured light system calibration method described in *****.
 
 The method uses a speckle projector and a single camera, achieving **coding-free** structured light calibration through Digital Image Correlation (DIC) matching — no Gray code or phase shifting patterns required.
 
@@ -271,12 +261,4 @@ SLCalibration-python/
 
 **3D Reconstruction**: Undistort (50 iterations) → linear least-squares triangulation → point cloud centering.
 
-### Citation
 
-If this code helps your research, please cite:
-
-```
-Zhu, C., Zhang, Q., Hou, J., & Gao, H. (2022).
-Calibration method for structured light system based on DIC.
-Applied Optics, 61(27), 8050-8059.
-```
